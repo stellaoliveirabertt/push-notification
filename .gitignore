@@ -1,0 +1,81 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-store/ # Se você usa pnpm
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime and build artifacts
+build/
+dist/
+.cache/
+.eslintcache
+.parcel-cache/ # Se você usa Parcel para algo
+.rollup.cache/ # Se você usa Rollup para algo
+.next/ # Se você usa Next.js
+.nuxt/ # Se você usa Nuxt.js
+.svelte-kit/ # Se você usa SvelteKit
+
+# Vite specific
+.vite/
+.vitepress/cache/ # Se você usa VitePress
+
+# IDEs and Editors
+.vscode/ # Configurações do VS Code (opcional, pode querer versionar settings.json)
+.idea/ # IntelliJ IDEA
+.history/ # VS Code extension
+
+# OS generated files
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+.directory # Linux (KDE)
+
+# Environment variables
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+
+# Firebase (se você usa Firebase no frontend e tem arquivos de configuração)
+firebase-debug.log
+firebase-key.json # NUNCA comitar chaves privadas!
+firebase-adminsdk*.json # NUNCA comitar chaves de admin!
+src/environments/firebase-config.ts # Exemplo para arquivos de config em TS
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+*.nyc_output
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Dependency lock files (geralmente versionados, mas pode ser útil para depuração)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Compiled output
+*.js.map
+*.css.map
